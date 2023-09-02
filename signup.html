@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        div{
+            margin-left: 300px;
+            margin-right: 600px;
+            margin-top: 60px;
+            padding-left: 100px;
+            padding-right: 600px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            border: 3px solid black;
+            text-align: left;
+            background-image: url(samsmal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        input {
+            padding:10px;
+            color: blueviolet;
+            font-size: 15px;
+        }
+        input[type=number]{
+            color: brown;
+            border-color: blue;
+            border-radius: 40px;
+        }
+        form{
+            border: 1px ;
+            padding-right: 100px;
+
+        }
+        body{
+            font-size: 20px;
+            background-image:url(https://edge.99images.com/photos/celebrities/samantha-akkineni/md/samantha-akkineni-cute-beautiful-hot-whatsapp-dp-collage-status-xlnv.jpg);
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+        input[type=submit]{
+            box-align: center;
+            color: white;
+            background-color: black;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    </style>
+</head>
+<h1>Sign up to Fan Club</h1>
+<body>
+    
+    <div class="shahul">
+    <form action="index.html">
+    First Name: <br><input type="text" name="fn" placeholder="First name" required><br>
+    <br>Last Name: <br><input type="text" name="ln" placeholder="last name" required><br><br>
+    Mail Id: <br><input type="email" name="mail" placeholder="Mail ID" required><br><br>
+    Phone: <br><input type="number" name="contact" placeholder="phone">
+    <br><br>DOB<input type="date" name="dob"><br><br>
+    <br>Gender 
+    <input type="radio" id="M" name="Gender">
+    <label for="M">Male</label>
+    <input type="radio" id="F" name="Gender">
+    <label for="M">Female</label>
+    <input type="radio" id="O" name="Gender">
+    <label for="M">other</label><br><br>
+    <input type="checkbox" id="sms" name="Notification" checked>
+    <label for="sms">SMS Notification</label><br><br>
+    <input type="checkbox" id="mail" name="Notification">
+    <label for="sms">Mail Notification</label><br><br>
+    <input type="checkbox" id="sms" name="Notification">
+    <label for="sms">Whatsapp Notification</label><br><br>
+    Nationality:
+    <br><br><select name="country" multiple>
+        <option value="India">Select</option>
+        <option value="India">India</option>
+        <option value="India">USA</option>
+        <option value="India">Germany</option>
+        <option value="Dubai"></option>
+    </select><br><br>
+    <input type="submit" value="signup">
+    </div>
+</form>
+</body>
+</html>
